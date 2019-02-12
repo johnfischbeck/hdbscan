@@ -27,7 +27,7 @@ def make_var_density_blobs(n_samples=750, centers=[[0,0]], cluster_std=[0.5], ra
              for i, c in enumerate(centers)]
     labels = [i * np.ones(samples_per_blob) for i in range(len(centers))]
     return np.vstack(blobs), np.hstack(labels)
-        
+
 
 ##############################################################################
 # Generate sample data
